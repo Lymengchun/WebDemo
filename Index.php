@@ -1,3 +1,3 @@
 <?php
-    .require_once("Task6.html");
+    .require_once("Homework5/Task6.html");
 ?>
