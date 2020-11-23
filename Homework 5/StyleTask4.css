@@ -1,0 +1,77 @@
+.container{
+    
+    
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+header{
+    background-color: #50A3E7;
+  
+    
+   
+}
+
+.Flex{
+    display: flex;
+
+}
+.Flex h1{
+    padding-top: 172.5px;
+}
+main{
+   
+    background-color:#93BE65;
+    justify-content: space-between;
+    flex-grow: 2;
+    height: 345px;
+
+  
+}
+.Sidebar{
+    
+    background-color: #7E7E7E;
+    justify-content: space-between;
+    flex-grow: 1;
+
+   
+    
+
+}
+footer{
+    background-color: #50A3E7;
+   
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+   
+ 
+}
+
+@media only screen and (max-width: 480px) {
+    .Flex{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    
+    .Flex div{
+       height: 50px;
+
+    }
+    .Flex div h1{
+        padding: 0;
+        vertical-align: middle;
+    }
+    
+    
+    
+ 
+  
+   
+  }
+  

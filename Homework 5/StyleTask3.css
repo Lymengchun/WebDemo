@@ -1,0 +1,26 @@
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#F7F7F7;
+    width: 1010px;
+    
+    
+}
+
+.flex-container div{
+    
+    margin: 1px;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+

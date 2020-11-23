@@ -1,0 +1,32 @@
+
+li {
+  display: inline-flex;
+  list-style-type: none;
+  font-weight: bold;
+  
+}
+
+li a {
+  
+  padding: 30px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  
+}
+ul{
+
+  background-color: #333333;
+  padding-left: 0;
+}
+.active{
+  background-color: #68AD5C;
+}
+
+@media only screen and (max-width: 480px) {
+  li {
+    display:flex;
+  }
+}
+
